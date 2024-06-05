@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C5732642C110CF50060BB64 /* conquer_the_dayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5732632C110CF50060BB64 /* conquer_the_dayApp.swift */; };
+		8C5732662C110CF50060BB64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5732652C110CF50060BB64 /* ContentView.swift */; };
+		8C5732682C110CF60060BB64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5732672C110CF60060BB64 /* Assets.xcassets */; };
+		8C57326C2C110CF60060BB64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C57326B2C110CF60060BB64 /* Preview Assets.xcassets */; };
+		8C5732762C110CF70060BB64 /* conquer_the_dayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5732752C110CF70060BB64 /* conquer_the_dayTests.swift */; };
+		8C5732802C110CF70060BB64 /* conquer_the_dayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C57327F2C110CF70060BB64 /* conquer_the_dayUITests.swift */; };
+		8C5732822C110CF70060BB64 /* conquer_the_dayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5732812C110CF70060BB64 /* conquer_the_dayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C5732722C110CF70060BB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C5732582C110CF40060BB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C57325F2C110CF40060BB64;
+			remoteInfo = "conquer-the-day";
+		};
+		8C57327C2C110CF70060BB64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C5732582C110CF40060BB64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C57325F2C110CF40060BB64;
+			remoteInfo = "conquer-the-day";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C5732602C110CF40060BB64 /* conquer-the-day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "conquer-the-day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5732632C110CF50060BB64 /* conquer_the_dayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conquer_the_dayApp.swift; sourceTree = "<group>"; };
+		8C5732652C110CF50060BB64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8C5732672C110CF60060BB64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C5732692C110CF60060BB64 /* conquer_the_day.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = conquer_the_day.entitlements; sourceTree = "<group>"; };
+		8C57326B2C110CF60060BB64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8C5732712C110CF70060BB64 /* conquer-the-dayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "conquer-the-dayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C5732752C110CF70060BB64 /* conquer_the_dayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conquer_the_dayTests.swift; sourceTree = "<group>"; };
+		8C57327B2C110CF70060BB64 /* conquer-the-dayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "conquer-the-dayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C57327F2C110CF70060BB64 /* conquer_the_dayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conquer_the_dayUITests.swift; sourceTree = "<group>"; };
+		8C5732812C110CF70060BB64 /* conquer_the_dayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conquer_the_dayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C57325D2C110CF40060BB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C57326E2C110CF70060BB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5732782C110CF70060BB64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C5732572C110CF40060BB64 = {
+			isa = PBXGroup;
+			children = (
+				8C5732622C110CF40060BB64 /* conquer-the-day */,
+				8C5732742C110CF70060BB64 /* conquer-the-dayTests */,
+				8C57327E2C110CF70060BB64 /* conquer-the-dayUITests */,
+				8C5732612C110CF40060BB64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C5732612C110CF40060BB64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C5732602C110CF40060BB64 /* conquer-the-day.app */,
+				8C5732712C110CF70060BB64 /* conquer-the-dayTests.xctest */,
+				8C57327B2C110CF70060BB64 /* conquer-the-dayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C5732622C110CF40060BB64 /* conquer-the-day */ = {
+			isa = PBXGroup;
+			children = (
+				8C5732632C110CF50060BB64 /* conquer_the_dayApp.swift */,
+				8C5732652C110CF50060BB64 /* ContentView.swift */,
+				8C5732672C110CF60060BB64 /* Assets.xcassets */,
+				8C5732692C110CF60060BB64 /* conquer_the_day.entitlements */,
+				8C57326A2C110CF60060BB64 /* Preview Content */,
+			);
+			path = "conquer-the-day";
+			sourceTree = "<group>";
+		};
+		8C57326A2C110CF60060BB64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8C57326B2C110CF60060BB64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8C5732742C110CF70060BB64 /* conquer-the-dayTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C5732752C110CF70060BB64 /* conquer_the_dayTests.swift */,
+			);
+			path = "conquer-the-dayTests";
+			sourceTree = "<group>";
+		};
+		8C57327E2C110CF70060BB64 /* conquer-the-dayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8C57327F2C110CF70060BB64 /* conquer_the_dayUITests.swift */,
+				8C5732812C110CF70060BB64 /* conquer_the_dayUITestsLaunchTests.swift */,
+			);
+			path = "conquer-the-dayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C57325F2C110CF40060BB64 /* conquer-the-day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5732852C110CF70060BB64 /* Build configuration list for PBXNativeTarget "conquer-the-day" */;
+			buildPhases = (
+				8C57325C2C110CF40060BB64 /* Sources */,
+				8C57325D2C110CF40060BB64 /* Frameworks */,
+				8C57325E2C110CF40060BB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "conquer-the-day";
+			productName = "conquer-the-day";
+			productReference = 8C5732602C110CF40060BB64 /* conquer-the-day.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C5732702C110CF70060BB64 /* conquer-the-dayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C5732882C110CF70060BB64 /* Build configuration list for PBXNativeTarget "conquer-the-dayTests" */;
+			buildPhases = (
+				8C57326D2C110CF70060BB64 /* Sources */,
+				8C57326E2C110CF70060BB64 /* Frameworks */,
+				8C57326F2C110CF70060BB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C5732732C110CF70060BB64 /* PBXTargetDependency */,
+			);
+			name = "conquer-the-dayTests";
+			productName = "conquer-the-dayTests";
+			productReference = 8C5732712C110CF70060BB64 /* conquer-the-dayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8C57327A2C110CF70060BB64 /* conquer-the-dayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C57328B2C110CF70060BB64 /* Build configuration list for PBXNativeTarget "conquer-the-dayUITests" */;
+			buildPhases = (
+				8C5732772C110CF70060BB64 /* Sources */,
+				8C5732782C110CF70060BB64 /* Frameworks */,
+				8C5732792C110CF70060BB64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C57327D2C110CF70060BB64 /* PBXTargetDependency */,
+			);
+			name = "conquer-the-dayUITests";
+			productName = "conquer-the-dayUITests";
+			productReference = 8C57327B2C110CF70060BB64 /* conquer-the-dayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C5732582C110CF40060BB64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					8C57325F2C110CF40060BB64 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					8C5732702C110CF70060BB64 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8C57325F2C110CF40060BB64;
+					};
+					8C57327A2C110CF70060BB64 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 8C57325F2C110CF40060BB64;
+					};
+				};
+			};
+			buildConfigurationList = 8C57325B2C110CF40060BB64 /* Build configuration list for PBXProject "conquer-the-day" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8C5732572C110CF40060BB64;
+			productRefGroup = 8C5732612C110CF40060BB64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C57325F2C110CF40060BB64 /* conquer-the-day */,
+				8C5732702C110CF70060BB64 /* conquer-the-dayTests */,
+				8C57327A2C110CF70060BB64 /* conquer-the-dayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C57325E2C110CF40060BB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C57326C2C110CF60060BB64 /* Preview Assets.xcassets in Resources */,
+				8C5732682C110CF60060BB64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C57326F2C110CF70060BB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5732792C110CF70060BB64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C57325C2C110CF40060BB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5732662C110CF50060BB64 /* ContentView.swift in Sources */,
+				8C5732642C110CF50060BB64 /* conquer_the_dayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C57326D2C110CF70060BB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5732762C110CF70060BB64 /* conquer_the_dayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C5732772C110CF70060BB64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5732802C110CF70060BB64 /* conquer_the_dayUITests.swift in Sources */,
+				8C5732822C110CF70060BB64 /* conquer_the_dayUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C5732732C110CF70060BB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C57325F2C110CF40060BB64 /* conquer-the-day */;
+			targetProxy = 8C5732722C110CF70060BB64 /* PBXContainerItemProxy */;
+		};
+		8C57327D2C110CF70060BB64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C57325F2C110CF40060BB64 /* conquer-the-day */;
+			targetProxy = 8C57327C2C110CF70060BB64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8C5732832C110CF70060BB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8C5732842C110CF70060BB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8C5732862C110CF70060BB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "conquer-the-day/conquer_the_day.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"conquer-the-day/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmettschillinger.conquer-the-day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C5732872C110CF70060BB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "conquer-the-day/conquer_the_day.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"conquer-the-day/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmettschillinger.conquer-the-day";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8C5732892C110CF70060BB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmettschillinger.conquer-the-dayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conquer-the-day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/conquer-the-day";
+			};
+			name = Debug;
+		};
+		8C57328A2C110CF70060BB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmettschillinger.conquer-the-dayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/conquer-the-day.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/conquer-the-day";
+			};
+			name = Release;
+		};
+		8C57328C2C110CF70060BB64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmettschillinger.conquer-the-dayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "conquer-the-day";
+			};
+			name = Debug;
+		};
+		8C57328D2C110CF70060BB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "emmettschillinger.conquer-the-dayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "conquer-the-day";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C57325B2C110CF40060BB64 /* Build configuration list for PBXProject "conquer-the-day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5732832C110CF70060BB64 /* Debug */,
+				8C5732842C110CF70060BB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5732852C110CF70060BB64 /* Build configuration list for PBXNativeTarget "conquer-the-day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5732862C110CF70060BB64 /* Debug */,
+				8C5732872C110CF70060BB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C5732882C110CF70060BB64 /* Build configuration list for PBXNativeTarget "conquer-the-dayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C5732892C110CF70060BB64 /* Debug */,
+				8C57328A2C110CF70060BB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C57328B2C110CF70060BB64 /* Build configuration list for PBXNativeTarget "conquer-the-dayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C57328C2C110CF70060BB64 /* Debug */,
+				8C57328D2C110CF70060BB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C5732582C110CF40060BB64 /* Project object */;
+}
